@@ -1,0 +1,12 @@
+{
+  "name": "react-core-template",
+  "version": "1.0.0",
+  "repository": "https://github.com/ettrac/reactCoreTemplate",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "scripts": {
+    "copyweb": "powershell Copy-Item -Path web/build/*  -Destination api/wwwroot –Recurse"
+  }
+}
